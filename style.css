@@ -1,0 +1,56 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    body {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url('worldcup.jpg');
+    }
+    
+    .title {
+        color: #1010aa;
+        font-size: 30px;
+    }
+    
+    .nav-link {
+        color: #1010aa !important;
+    }
+    
+    .dropbtn {
+        border: none;
+        background: none;
+        color: #1010aa !important;
+    }
+    
+    .dropdown-content {
+        display: none;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color: white;
+    }
+    
+    .dropdown-items {
+        color: green;
+        font-size: 20px;
+        text-shadow: 3px 3px 3px blue;
+        margin-left: 30px;
+    }
+    
+    .welcome {
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+    
+    .welcome-content {
+        font-size: 5rem;
+        color: #2ed916;
+        font-weight: bold;
+        text-shadow: 5px 5px 5px red;
+    }
